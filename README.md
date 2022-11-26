@@ -65,8 +65,7 @@
         gamma: 0.5
         strength: 0.5
         ```
-11. Далее перешел в папку с проектом командой ```cd /d H:\ВУЗ\3 семестр\Дата сайнс в примерах и задачах\lab-5\MLA_Lab5_unity``` и запустил TensorBoard командой ``` tensorboard --logdir=results\ ```, в результате в TensorBoard появились следующие графики.
-
+11. Далее перешел в папку с проектом командой ```cd /d H:\ВУЗ\3 семестр\Дата сайнс в примерах и задачах\lab-5\MLA_Lab5_unity``` и запустил TensorBoard командой ``` tensorboard --logdir=results\ ```, в результате в TensorBoard появились следующие графики.  
         ![граф1](https://user-images.githubusercontent.com/97295011/204098752-94bfa39c-0793-4262-bb62-a4e915723063.PNG)
         ![граф2](https://user-images.githubusercontent.com/97295011/204098761-ae042307-b777-4200-a5ff-5acbb01781a0.PNG)
         ![граф3](https://user-images.githubusercontent.com/97295011/204098763-9efe184a-c168-420a-a7f0-9ba2258995f2.PNG)

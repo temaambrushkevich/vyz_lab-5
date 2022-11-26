@@ -41,8 +41,13 @@
 4. Командой ``` mlagents-learn Economic.yaml --run-id=Economic –-force ``` запустил обучени ML-agenta и запустил проект в Unity.  
 
     ![gif1](https://user-images.githubusercontent.com/97295011/204089276-5f048423-081a-41bb-9e8f-fe37de71e4ee.gif)  
-5. 
-
+5. Для того, чтобы ускорить процесс обучения - увеличил кол-во префабов 12 и снова запустил обучение ML-agenta, в результате 10000 шагов и 42.150 секунд мл-агент обучился, чего не скажешь на отметке в 5000 шагов.
+    ![Снимок1](https://user-images.githubusercontent.com/97295011/204089547-fcdd48f8-0a4d-430c-985c-73b72fdb73cc.PNG)
+6. Результаты обучения модели были сохранены в папку с .yaml-файлом: ```...lab-5\MLA_Lab5_unity\results\Economic```.  
+7. Далее установил TensorBoard с помощью команды ``` pip install tensorflow ```.  
+8. Перешел в папку с проектом командой``` cd /d H:\ВУЗ\3 семестр\Дата сайнс в примерах и задачах\lab-5\MLA_Lab5_unity ```
+9. Запустил TensorBoard командой``` tensorboard --logdir=results\Economic ```, и в браузере по пути ```http://localhost:6006/``` появились следующие графики
+    ![Снимок2](https://user-images.githubusercontent.com/97295011/204091381-73d443fe-0ad5-4695-8899-d814951857ff.PNG)
 
 
 
